@@ -1,0 +1,90 @@
+.weather{
+    width: auto;
+    border-radius: 6px;
+    /* box-shadow: 10px -2px 20px 2px rgb(0 0 0 /30%); */
+    color: #fff;
+    /* background:url(../../../../public/after_noon.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover; */
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+
+}
+.top,.bottom   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.top{
+    margin: 1rem;
+}
+.bottom{
+    flex-direction: column;
+}
+.city{
+    font-weight:600 ;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.weather-description{
+    font-weight:400 ;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+}
+.weather-icon{
+    width: 100px;
+    /* backdrop-filter: blur(20px);
+    box-shadow: inset 65px -188px 300px -33px rgba(140,140,140,0.6); */
+}
+.temp{
+font-weight: 600;
+font-size: 70px;
+width: auto;
+letter-spacing: -5px;
+margin: 10px 0;
+}
+.details{
+    width: 100%;
+    padding: 0 20px;
+
+}
+.para-row{
+    display: flex;
+    justify-content: space-between;
+    margin:0 2rem 1rem; 
+    padding: 10px;
+    color: #212121;
+    background: rgba(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 1px 1000px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.7px);
+    /* border: 1px solid rgba(255, 255, 255, 0.5); */
+    }
+.para-label{
+    text-align:left;
+    font-weight: 400;
+    font-size: 22px;
+}
+.para-value{
+    text-align: right;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+.para-row:first-child{
+    /* background: rgba(255, 255, 255, 0.182); */
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
+    background: transparent;
+    border-radius: 0px;
+    /* width: 100%; */
+    color: #fff;
+    border-bottom: 1px #ffffff solid;
+
+}
